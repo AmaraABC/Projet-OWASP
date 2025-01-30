@@ -16,6 +16,9 @@
                     <?php echo $product['name']; ?>
                 </h2>
                 <p>
+                    Date d'ajout du produit : <?php echo $product['created_at']; ?>
+                </p>
+                <p>
                     <?php echo $product['price']; ?> €
                 </p>
             </article>
