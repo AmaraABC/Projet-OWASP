@@ -3,6 +3,7 @@
 chose à faire
 
 priorité:
+
   -inscription et connxeion
   -affichage des produit
   -formulaire de support
