@@ -23,5 +23,7 @@
             <a href="/index.php?page=homepage">Accueil</a>
             <a href="/index.php?page=articles">Produits</a>
             <a href="/index.php?page=contacts">Contact</a>
+            <a href="/index.php?page=inscription">Inscription</a>
+            <a href="/index.php?page=connexion">Connexion</a>
         </nav>
     </header>
