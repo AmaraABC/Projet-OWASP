@@ -9,6 +9,7 @@ priorité:
   -affichage des produit
   
   -formulaire de support
+  
 
 à faire:
 
@@ -17,6 +18,7 @@ priorité:
   -panier utilisateur
   
   -présentaion du vendeur
+  
   
 
 si quelque chose est fait, il faudra mettre des parenthèses autour
