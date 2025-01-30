@@ -20,17 +20,8 @@
         </a>
         <!-- Liens pour naviguer entre chaque page du site -->
         <nav class="owasp-links">
-            <!-- Liens -->
-            <ul class="owasp-pages">
-                <li>
-                    <a href="/index.php?page=homepage">Accueil</a>
-                </li>
-                <li>
-                    <a href="/index.php?page=articles">Produits</a>
-                </li>
-                <li>
-                    <a href="/index.php?page=contacts">Contact</a>
-                </li>
-            </ul>
+            <a href="/index.php?page=homepage">Accueil</a>
+            <a href="/index.php?page=articles">Produits</a>
+            <a href="/index.php?page=contacts">Contact</a>
         </nav>
     </header>
