@@ -15,12 +15,10 @@ CREATE TABLE IF NOT EXISTS 'product' (
   'alt' VARCHAR(45) NOT NULL
 )
 
-
-
---exemple pour ajouter un produit dans la base de donnée
---la ligne qui commence par "id" montre l'ordre des valeur
+--Exemple pour ajouter un produit dans la base de données
+--la ligne qui commence par "id" montre l'ordre des valeurs
 --la ligne qui commence par "1" montre un exemple de valeur
---les espace entre les valeur sont juste là pour faire beau
+--les espaces entre les valeurs sont juste là pour faire beau
 
 --START TRANSACTION;
 --INSERT INTO 'product' ('id', 'name', 'description', 'picture', 'price', 'status', 'created_at') VALUES (
