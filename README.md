@@ -6,14 +6,14 @@ priorité:
 
   -inscription et connxeion
   
-  -affichage des produit
+  (-affichage des produits)
   
   -formulaire de support
   
 
 à faire:
 
-  -liste des produit
+  (-liste des produits)
   
   -panier utilisateur
   
