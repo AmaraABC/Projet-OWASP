@@ -12,9 +12,9 @@ class productController
     }
 
     // Transmission des informations à la page qui affiche les produits du microsite
-    public function articles()
+    public function products()
     {
-        $articles = $this->model->getAllProducts();
+        $products = $this->model->getAllProducts();
         include('./View/articles.php');
     }
 
