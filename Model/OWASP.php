@@ -6,7 +6,11 @@ class OWASP
     public static function connexion()
     {
         try {
-            $bdd = new PDO('mysql:host=localhost;dbname=owasp', 'root', 'password');
+            /* MySQL
+            $bdd = new PDO('mysql:host=localhost;dbname=owasp', 'root', 'password'); */
+            
+            // PostgreSQL / pgadmin 4
+            $bdd = new PDO('pgsql:host=localhost;port=5432;dbname=owasp', 'postgres', 'epiphany212RA_');
             // echo "Connexion à la base de données effectuée avec succès !\n";
             return $bdd;
         } catch (Exception $e) {
