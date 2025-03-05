@@ -21,6 +21,6 @@ priorité:
   
   
 
-si quelque chose est fait, il faudra mettre des parenthèses autour
+Si quelque chose est fait, il faudra mettre des parenthèses autour
 
-  (-exmple pour demonstrer)
+  (exemple pour demontrer)
