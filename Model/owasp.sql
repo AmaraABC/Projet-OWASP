@@ -1,7 +1,6 @@
 CREATE DATABASE Owasp;
 USE Owasp;
 
-
 DROP TABLE IF EXISTS 'product' ;
 
 CREATE TABLE IF NOT EXISTS 'product' (
@@ -26,3 +25,15 @@ CREATE TABLE IF NOT EXISTS 'product' (
 --      '1',  'nomproduit', 'description du produit', '../image/produit/nomproduit.jpg', '30',   '1',     '2018-10-17'
 --);
 --COMMIT;
+
+/* PostgreSQL */
+CREATE TABLE product (
+  id SERIAL,
+  name VARCHAR(45) NOT NULL,
+  description VARCHAR,
+  picture VARCHAR(128),
+  price DECIMAL(10,2) NOT NULL DEFAULT 0,
+  status SMALLINT NOT NULL DEFAULT 0,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  alt VARCHAR(45) NOT NULL
+);
