@@ -1,4 +1,4 @@
-<h1 class="owasp-page-title">Liste de nos produits</h1>
+<h1 class="page-title">Liste de nos produits</h1>
 
 <!-- Afficher tous les produits disponibles -->
 <div class="owasp-all-products">
