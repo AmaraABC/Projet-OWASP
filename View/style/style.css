@@ -12,8 +12,27 @@
     background-color: brown;
 }
 
+.owasp-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+}
+
 .owasp-header a {
     color: white;
+}
+
+.owasp-logo {
+    font-size: 2vw;
+}
+
+.owasp-links {
+    width: 45%;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    font-size: 1.4vw;
+    align-items: center;
 }
 
 .owasp-footer {
