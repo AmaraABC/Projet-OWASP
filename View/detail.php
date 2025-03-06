@@ -19,6 +19,9 @@
                     Date d'ajout du produit : <?php echo $detail['created_at']; ?>
                 </p>
                 <p>
+                    <?php echo $detail['description'] ?>
+                </p>
+                <p>
                     <?php echo $detail['price']; ?> €
                 </p>
             </article>

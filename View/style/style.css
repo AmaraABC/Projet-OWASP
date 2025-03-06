@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Haut-de-page et Pied-de-page */
+.owasp-header, .owasp-footer {
+    padding: 2vw 0;
+    background-color: brown;
+}
+
+.owasp-header a {
+    color: white;
+}
+
+.owasp-footer {
+    text-align: center;
+    color: white;
+    font-size: 1.7vw;
+}
+
+/* Intitulé de chaque page */
+.page-title {
+    text-align: center;
+    font-size: 3.5vw;
+    margin: 2.5vw 0;
+    font-weight: bold; 
+}
+
+.owasp-product-text {
+    padding-bottom: 2vw;
+}
