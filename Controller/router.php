@@ -13,4 +13,9 @@ switch ($page) {
         $products = new productController;
         $products->products();
         break;
+
+    case 'details':
+        $details = new productController;
+        $details->details();
+        break;
 }

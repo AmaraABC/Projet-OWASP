@@ -22,6 +22,6 @@ class productController
     public function details()
     {
         $details = $this->model->getProductById($_GET['id']);
-        include('./View/details.php');
+        include('./View/detail.php');
     }
 }
